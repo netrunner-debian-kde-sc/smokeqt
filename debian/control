@@ -263,6 +263,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: kdebindings-dbg
 Replaces: kdebindings-dbg
 Architecture: any
+Priority: extra
 Description: Qt SMOKE libraries debug symbols
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
  contains debug symbols for Qt SMOKE libraries.
