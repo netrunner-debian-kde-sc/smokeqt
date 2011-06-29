@@ -258,7 +258,7 @@ Description: QImageBlitz SMOKE libraries
  This is part of the Smoke Qt module.
 
 Package: libsmokeqt4-dbg
-Section: libs
+Section: debug
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: kdebindings-dbg
 Replaces: kdebindings-dbg
