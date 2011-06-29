@@ -21,7 +21,7 @@ Description: QScintilla2 SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqt3support4-3
 Section: libs
@@ -34,7 +34,7 @@ Description: Qt3 Support SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqtcore4-3
 Section: libs
@@ -47,7 +47,7 @@ Description: Qt Core SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqtdbus4-3
 Section: libs
@@ -60,7 +60,7 @@ Description: Qt D-Bus SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqtdeclarative4-3
 Section: libs
@@ -73,7 +73,7 @@ Description: Qt Declarative SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqtgui4-3
 Section: libs
@@ -86,7 +86,7 @@ Description: Qt Gui SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqthelp4-3
 Section: libs
@@ -99,7 +99,7 @@ Description: Qt Help SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqtnetwork4-3
 Section: libs
@@ -112,7 +112,7 @@ Description: Qt Network SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqtopengl4-3
 Section: libs
@@ -125,7 +125,7 @@ Description: Qt OpenGL SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqtscript4-3
 Section: libs
@@ -138,7 +138,7 @@ Description: Qt Script SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqtsql4-3
 Section: libs
@@ -151,7 +151,7 @@ Description: Qt Sql SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqtsvg4-3
 Section: libs
@@ -164,7 +164,7 @@ Description: Qt Svg SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqttest4-3
 Section: libs
@@ -177,7 +177,7 @@ Description: Qt Test SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqtuitools4-3
 Section: libs
@@ -190,7 +190,7 @@ Description: Qt Ui Tools SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqtwebkit4-3
 Section: libs
@@ -203,7 +203,7 @@ Description: Qt WebKit SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqtxml4-3
 Section: libs
@@ -216,7 +216,7 @@ Description: Qt Xml SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqtxmlpatterns4-3
 Section: libs
@@ -229,7 +229,7 @@ Description: Qt XmlPatterns SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokephonon3
 Section: libs
@@ -242,7 +242,7 @@ Description: Qt Phonon SMOKE library
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqimageblitz3
 Section: libs
@@ -255,7 +255,7 @@ Description: QImageBlitz SMOKE libraries
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqt4-dbg
 Section: debug
@@ -271,7 +271,7 @@ Description: Qt SMOKE libraries debug symbols
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqt4-dev
 Section: libdevel
@@ -286,7 +286,7 @@ Description: Development files for Qt SMOKE libraries
  .
  This package contains development files.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
 Package: libsmokeqwt3
 Section: libs
@@ -299,5 +299,5 @@ Description: Qwt5 SMOKE libraries
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
  .
- This is part of the Smoke Qt module.
+ This is part of the SMOKE Qt module.
 
