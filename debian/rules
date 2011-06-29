@@ -6,12 +6,8 @@ override_dh_install:
 override_dh_strip:
 	dh_strip --dbg-package=libsmokeqt4-dbg
 
-#Build-Depend on pkg-kde-tools (>= 0.6.8) for dh_sodeps
-override_dh_gencontrol:
-	dh_sodeps
-	dh_gencontrol
-
 #Build-Depend on debhelper (>= 7.4.10) for --parallel
+#Build-Depend on pkg-kde-tools (>= 0.6.8) for the sodeps addon
 %:
-	dh $@ --parallel
+	dh $@ --parallel --with sodeps
 
