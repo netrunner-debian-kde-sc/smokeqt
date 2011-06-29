@@ -279,12 +279,10 @@ Depends: ${so:Depends}, ${misc:Depends}
 Architecture: any
 Description: Development files for Qt SMOKE libraries
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
- contains pure Qt SMOKE.
+ contains the development files for the SMOKE Qt modules.
  .
  SMOKE provides infrastructure which is used for creating bindings for
  multiple languages such as Ruby, C# and PHP.
- .
- This package contains development files.
  .
  This is part of the SMOKE Qt module.
 
