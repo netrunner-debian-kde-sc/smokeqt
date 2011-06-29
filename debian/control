@@ -260,6 +260,8 @@ Description: QImageBlitz SMOKE libraries
 Package: libsmokeqt4-dbg
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kdebindings-dbg
+Replaces: kdebindings-dbg
 Architecture: any
 Description: Qt SMOKE libraries debug symbols
  SMOKE libraries are part of the bindings used for Qt and KDE. This package

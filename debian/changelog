@@ -4,5 +4,6 @@ smokeqt (4:4.6.80-1) UNRELEASED; urgency=low
   * Source package `kdebindings` split.
   * Package QScintilla2 binding. (Closes: #nnnn)
   * Package Qwt5 binding. (Closes: #nnnn)
+  * Add kdebindings-dbg to libsmokeqt4-dbg Breaks/Replaces.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Jun 2011 22:01:09 -0500
