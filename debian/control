@@ -11,7 +11,6 @@ Vcs-Git: git://git.debian.org/git/pkg-kde/kde-sc/smokeqt.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/smokeqt.git;a=summary
 
 Package: libsmokeqsci3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: QScintilla2 SMOKE library
@@ -24,7 +23,6 @@ Description: QScintilla2 SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqt3support4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt3 Support SMOKE library
@@ -37,7 +35,6 @@ Description: Qt3 Support SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtcore4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt Core SMOKE library
@@ -50,7 +47,6 @@ Description: Qt Core SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtdbus4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt D-Bus SMOKE library
@@ -63,7 +59,6 @@ Description: Qt D-Bus SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtdeclarative4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt Declarative SMOKE library
@@ -76,7 +71,6 @@ Description: Qt Declarative SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtgui4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt Gui SMOKE library
@@ -89,7 +83,6 @@ Description: Qt Gui SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqthelp4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt Help SMOKE library
@@ -102,7 +95,6 @@ Description: Qt Help SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtnetwork4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt Network SMOKE library
@@ -115,7 +107,6 @@ Description: Qt Network SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtopengl4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt OpenGL SMOKE library
@@ -128,7 +119,6 @@ Description: Qt OpenGL SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtscript4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt Script SMOKE library
@@ -141,7 +131,6 @@ Description: Qt Script SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtsql4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt Sql SMOKE library
@@ -154,7 +143,6 @@ Description: Qt Sql SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtsvg4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt Svg SMOKE library
@@ -167,7 +155,6 @@ Description: Qt Svg SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqttest4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt Test SMOKE library
@@ -180,7 +167,6 @@ Description: Qt Test SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtuitools4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt Ui Tools SMOKE library
@@ -193,7 +179,6 @@ Description: Qt Ui Tools SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtwebkit4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt WebKit SMOKE library
@@ -206,7 +191,6 @@ Description: Qt WebKit SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtxml4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt Xml SMOKE library
@@ -219,7 +203,6 @@ Description: Qt Xml SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtxmlpatterns4-3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt XmlPatterns SMOKE library
@@ -232,7 +215,6 @@ Description: Qt XmlPatterns SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokephonon3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qt Phonon SMOKE library
@@ -245,7 +227,6 @@ Description: Qt Phonon SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqimageblitz3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: QImageBlitz SMOKE libraries
@@ -287,7 +268,6 @@ Description: Development files for Qt SMOKE libraries
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqwt3
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Architecture: any
 Description: Qwt5 SMOKE libraries

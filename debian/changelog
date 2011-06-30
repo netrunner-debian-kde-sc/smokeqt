@@ -8,6 +8,7 @@ smokeqt (4:4.6.80-1) UNRELEASED; urgency=low
   * Update control:
     - add libsmokeqt4-dbg
     - update Uploaders
+    - remove redundant section fields
   * Switch to dh7:
     - clean rules
     - pass --list-missing to dh_install
