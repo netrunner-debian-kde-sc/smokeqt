@@ -1,9 +1,27 @@
 smokeqt (4:4.6.80-1) UNRELEASED; urgency=low
-  
+
+  * Initial release, split from the kdebindings source.
+
   [ David Palacio ]
-  * Source package `kdebindings` split.
-  * Package QScintilla2 binding. (Closes: #nnnn)
-  * Package Qwt5 binding. (Closes: #nnnn)
-  * Add kdebindings-dbg to libsmokeqt4-dbg Breaks/Replaces.
+  * Package QScintilla2 binding.
+  * Package Qwt5 binding.
+  * Update control:
+    - add libsmokeqt4-dbg
+    - update Uploaders
+  * Switch to dh7:
+    - clean rules
+    - pass --list-missing to dh_install
+  * Adapt watch file to the new source name.
+  * Adapt Vcs fields.
+  * Switch copyright to the DEP5 format, revision 174.
+
+  [ Pino Toscano ]
+  * Update control:
+    - libsmokeqt4-dbg: make it break/replace kdebindings-dbg, fix Section
+      and Priority
+    - improve descriptions
+  * Update rules:
+    - pass sodeps as dh addon
+  * Update lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Jun 2011 22:01:09 -0500
