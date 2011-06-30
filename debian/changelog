@@ -14,7 +14,7 @@ smokeqt (4:4.6.80-1) UNRELEASED; urgency=low
     - pass --list-missing to dh_install
   * Adapt watch file to the new source name.
   * Adapt Vcs fields.
-  * Switch copyright to the DEP5 format, revision 174.
+  * Switch copyright to the DEP-5 format, revision 174.
 
   [ Pino Toscano ]
   * Update control:
