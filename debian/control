@@ -241,7 +241,8 @@ Description: QImageBlitz SMOKE libraries
 
 Package: libsmokeqt4-dbg
 Section: debug
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: libsmokeqtcore4-3 (= ${binary:Version}), ${misc:Depends}
+Recommends: libqt4-dbg
 Breaks: kdebindings-dbg
 Replaces: kdebindings-dbg
 Architecture: any
