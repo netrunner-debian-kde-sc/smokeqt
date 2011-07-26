@@ -4,7 +4,6 @@ smokeqt (4:4.6.95-1) UNRELEASED; urgency=low
 
   [ David Palacio ]
   * Package QScintilla2 binding.
-  * Package Qwt5 binding.
   * Update control:
     - add libsmokeqt4-dbg
     - update Uploaders

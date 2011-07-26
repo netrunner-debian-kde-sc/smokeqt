@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Torsten Marek <shlomme@debian.org>, Sune Vuorela <sune@debian.org>, David Palacio <dpalacio@orbitalibre.org>, Michael Meskes <meskes@debian.org>
 Build-Depends: debhelper (>= 7.4.10), pkg-kde-tools (>= 0.6.8), cmake,
  smoke-dev-tools, libqt4-dev, libqt4-opengl-dev, libqtwebkit-dev,
- libphonon-dev, libqimageblitz-dev, libqwt5-qt4-dev, libqscintilla2-dev
+ libphonon-dev, libqimageblitz-dev, libqscintilla2-dev
 Standards-Version: 3.9.2
 Homepage: http://projects.kde.org/projects/kde/kdebindings/smoke/smokeqt
 Vcs-Git: git://git.debian.org/git/pkg-kde/kde-sc/smokeqt.git
@@ -269,15 +269,15 @@ Description: Development files for Qt SMOKE libraries
  .
  This is part of the SMOKE Qt module.
 
-Package: libsmokeqwt3
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Architecture: any
-Description: Qwt5 SMOKE libraries
- SMOKE libraries are part of the bindings used for Qt and KDE. This package
- contains Qwt5 SMOKE libraries.
- .
- SMOKE provides infrastructure which is used for creating bindings for
- multiple languages such as Ruby, C# and PHP.
- .
- This is part of the SMOKE Qt module.
+#Package: libsmokeqwt3
+#Depends: ${shlibs:Depends}, ${misc:Depends}
+#Architecture: any
+#Description: Qwt5 SMOKE libraries
+# SMOKE libraries are part of the bindings used for Qt and KDE. This package
+# contains Qwt5 SMOKE libraries.
+# .
+# SMOKE provides infrastructure which is used for creating bindings for
+# multiple languages such as Ruby, C# and PHP.
+# .
+# This is part of the SMOKE Qt module.
 
