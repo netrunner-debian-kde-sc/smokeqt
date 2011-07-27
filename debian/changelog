@@ -25,4 +25,7 @@ smokeqt (4:4.6.95-1) UNRELEASED; urgency=low
   * Update lintian overrides.
   * Update copyright.
 
+  [ Modestas Vainius ]
+  * Remove myself from Uploaders.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Jun 2011 22:01:09 -0500
