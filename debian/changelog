@@ -20,6 +20,7 @@ smokeqt (4:4.7.0-0r1) UNRELEASED; urgency=low
     - libsmokeqt4-dbg: make it break/replace kdebindings-dbg, fix Section
       and Priority
     - improve descriptions
+    - require smoke-dev-tools >= 4.7.0
   * Update rules:
     - pass sodeps as dh addon
   * Update lintian overrides.
