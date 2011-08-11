@@ -25,6 +25,8 @@ smokeqt (4:4.7.0-0r1) UNRELEASED; urgency=low
     - pass sodeps as dh addon
   * Update lintian overrides.
   * Update copyright.
+  * Add patch reduced-linking.diff (committed also upstream) to reduce
+    overlinking.
 
   [ Modestas Vainius ]
   * Remove myself from Uploaders.
