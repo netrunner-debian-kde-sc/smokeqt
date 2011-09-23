@@ -8,6 +8,9 @@ smokeqt (4:4.7.1-1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Generate libraries shlibs based on the current version.
   * Tighten the various libraries dependencies to the current version.
+  * Drop version for the smoke-dev-tools dependency of libsmokeqt4-dev;
+    the right version will be picked because of the stricter libsmokebase
+    (indirect) dependency.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Sep 2011 22:06:18 -0500
 

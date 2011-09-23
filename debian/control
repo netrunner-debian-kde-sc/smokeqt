@@ -258,7 +258,7 @@ Description: Qt SMOKE libraries debug symbols
 
 Package: libsmokeqt4-dev
 Section: libdevel
-Depends: ${so:Depends}, ${misc:Depends}, smoke-dev-tools (>= 4:4.7.0)
+Depends: ${so:Depends}, ${misc:Depends}, smoke-dev-tools
 Architecture: any
 Description: Development files for Qt SMOKE libraries
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
