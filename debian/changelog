@@ -5,6 +5,9 @@ smokeqt (4:4.7.1-1) UNRELEASED; urgency=low
   [ David Palacio ]
   * Remove patch reduced-linking.diff, applied upstream.
 
+  [ Pino Toscano ]
+  * Generate libraries shlibs based on the current version.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Sep 2011 22:06:18 -0500
 
 smokeqt (4:4.7.0-1) unstable; urgency=low
