@@ -7,6 +7,7 @@ smokeqt (4:4.7.1-1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Generate libraries shlibs based on the current version.
+  * Tighten the various libraries dependencies to the current version.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Sep 2011 22:06:18 -0500
 
