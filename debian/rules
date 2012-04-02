@@ -3,9 +3,6 @@
 pkgs_lib := $(filter-out %-dev %-dbg,$(filter lib%,$(shell dh_listpackages)))
 current_version := $(shell dpkg-parsechangelog | sed -n 's/^Version: //p')
 
-export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS)
-export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS)
-
 override_dh_install:
 	dh_install --list-missing
 
