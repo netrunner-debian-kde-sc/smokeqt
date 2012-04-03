@@ -4,6 +4,21 @@ smokeqt (4:4.8.0-1) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 Feb 2012 21:13:59 -0500
 
+smokeqt (4:4.7.4-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release.
+  * Bump Standards-Version to 3.9.3, no changes required.
+  * Bump debhelper build dependency to >= 9, and compat to 9.
+  * Do not manually export CXXFLAGS and LDFLAGS now, since compat v9 does
+    that already.
+  * Update copyright:
+    - switch to copyright-format v1.0
+    - add entry for myself, for last year and the current one
+  * Bump smoke-dev-tools build dependency to >= 4:4.7.4.
+
+ -- Pino Toscano <pino@debian.org>  Tue, 03 Apr 2012 10:17:03 +0200
+
 smokeqt (4:4.7.1-1) unstable; urgency=low
 
   * New upstream release.

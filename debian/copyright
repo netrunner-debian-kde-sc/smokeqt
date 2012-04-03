@@ -1,4 +1,4 @@
-Format: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=174
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: smokeqt
 Source: http://projects.kde.org/projects/kde/kdebindings/smoke/smokeqt
 
@@ -12,6 +12,7 @@ License: LGPL-2.1
 Files: debian/*
 Copyright: 2008-2011 Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
            2011 David Palacio <dpalacio@orbitalibre.org>
+           2011-2012 Pino Toscano <pino@debian.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
