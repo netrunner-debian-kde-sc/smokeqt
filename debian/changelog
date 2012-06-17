@@ -1,8 +1,9 @@
-smokeqt (4:4.8.0-1) UNRELEASED; urgency=low
+smokeqt (4:4.8.4-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Team upload
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 Feb 2012 21:13:59 -0500
+ -- Sune Vuorela <sune@debian.org>  Sun, 17 Jun 2012 10:31:23 +0200
 
 smokeqt (4:4.7.4-1) unstable; urgency=low
 
