@@ -1,3 +1,10 @@
+smokeqt (4:4.10.2-1) experimental; urgency=low
+
+  * New upstream release
+  * Update installed files
+
+ -- Sune Vuorela <sune@debian.org>  Sun, 07 Apr 2013 11:00:04 +0000
+
 smokeqt (4:4.8.4-1) unstable; urgency=low
 
   * New upstream release.
