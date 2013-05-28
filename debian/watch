@@ -1,2 +1,2 @@
 version=3
-ftp://ftp.kde.org/pub/kde/stable/([\d\.]+)/src/smokeqt-([\d\.]+)\.tar\.bz2
+ftp://ftp.kde.org/pub/kde/stable/([\d\.]+)/src/smokeqt-([\d\.]+)\.tar\.xz
