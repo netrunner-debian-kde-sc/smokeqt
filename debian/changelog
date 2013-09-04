@@ -1,10 +1,10 @@
-smokeqt (4:4.10.5-2) UNRELEASED; urgency=low
+smokeqt (4:4.10.5-2) unstable; urgency=low
 
-  [ Pino Toscano ]
+  * Team upload.
   * Add the pkg-config build dependency.
   * Fix Vcs-Git header.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 19 Aug 2013 13:44:09 +0200
+ -- Pino Toscano <pino@debian.org>  Wed, 04 Sep 2013 16:52:33 +0200
 
 smokeqt (4:4.10.5-1) unstable; urgency=low
 
