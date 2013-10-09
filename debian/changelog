@@ -1,6 +1,7 @@
 smokeqt (4:4.11.2-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Update build-dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Oct 2013 15:52:04 +0200
 
