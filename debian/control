@@ -9,7 +9,7 @@ Uploaders: Torsten Marek <shlomme@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.6.8), cmake,
  pkg-config,
- smoke-dev-tools (>= 4:4.10), libqt4-dev, libqt4-opengl-dev, libqtwebkit-dev,
+ smoke-dev-tools (>= 4:4.11), libqt4-dev, libqt4-opengl-dev, libqtwebkit-dev,
  libphonon-dev, libqimageblitz-dev, libqscintilla2-dev
 Standards-Version: 3.9.4
 Homepage: http://projects.kde.org/projects/kde/kdebindings/smoke/smokeqt
