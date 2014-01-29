@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.6.8), cmake,
  pkg-config,
  smoke-dev-tools (>= 4:4.11), libqt4-dev, libqt4-opengl-dev, libqtwebkit-dev,
  libphonon-dev, libqimageblitz-dev, libqscintilla2-dev
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: http://projects.kde.org/projects/kde/kdebindings/smoke/smokeqt
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/smokeqt.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/smokeqt.git;a=summary
