@@ -7,17 +7,24 @@ Uploaders: Torsten Marek <shlomme@debian.org>,
            David Palacio <dpalacio@orbitalibre.org>,
            Michael Meskes <meskes@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.6.8), cmake,
- pkg-config,
- smoke-dev-tools (>= 4:4.11), libqt4-dev, libqt4-opengl-dev, libqtwebkit-dev,
- libphonon-dev, libqimageblitz-dev, libqscintilla2-dev
+Build-Depends: cmake,
+               debhelper (>= 9),
+               libphonon-dev,
+               libqimageblitz-dev,
+               libqscintilla2-dev,
+               libqt4-dev,
+               libqt4-opengl-dev,
+               libqtwebkit-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.6.8),
+               smoke-dev-tools (>= 4:4.11)
 Standards-Version: 3.9.5
 Homepage: http://projects.kde.org/projects/kde/kdebindings/smoke/smokeqt
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/smokeqt.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/smokeqt.git;a=summary
 
 Package: libsmokeqsci3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: QScintilla2 SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -29,7 +36,7 @@ Description: QScintilla2 SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqt3support4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt3 Support SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -41,7 +48,7 @@ Description: Qt3 Support SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtcore4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt Core SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -53,7 +60,7 @@ Description: Qt Core SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtdbus4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt D-Bus SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -65,7 +72,7 @@ Description: Qt D-Bus SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtdeclarative4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt Declarative SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -77,7 +84,7 @@ Description: Qt Declarative SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtgui4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt Gui SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -89,7 +96,7 @@ Description: Qt Gui SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqthelp4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt Help SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -101,7 +108,7 @@ Description: Qt Help SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtnetwork4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt Network SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -113,7 +120,7 @@ Description: Qt Network SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtopengl4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt OpenGL SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -125,7 +132,7 @@ Description: Qt OpenGL SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtscript4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt Script SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -137,7 +144,7 @@ Description: Qt Script SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtsql4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt Sql SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -149,7 +156,7 @@ Description: Qt Sql SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtsvg4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt Svg SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -161,7 +168,7 @@ Description: Qt Svg SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqttest4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt Test SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -173,7 +180,7 @@ Description: Qt Test SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtuitools4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt Ui Tools SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -185,7 +192,7 @@ Description: Qt Ui Tools SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtwebkit4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt WebKit SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -197,7 +204,7 @@ Description: Qt WebKit SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtxml4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt Xml SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -209,7 +216,7 @@ Description: Qt Xml SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqtxmlpatterns4-3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt XmlPatterns SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -221,7 +228,7 @@ Description: Qt XmlPatterns SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokephonon3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: Qt Phonon SMOKE library
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -233,7 +240,7 @@ Description: Qt Phonon SMOKE library
  This is part of the SMOKE Qt module.
 
 Package: libsmokeqimageblitz3
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Description: QImageBlitz SMOKE libraries
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -263,7 +270,7 @@ Description: Qt SMOKE libraries debug symbols
 
 Package: libsmokeqt4-dev
 Section: libdevel
-Depends: ${so:Depends}, ${misc:Depends}, smoke-dev-tools (>> 4:4.10)
+Depends: smoke-dev-tools (>> 4:4.10), ${misc:Depends}, ${so:Depends}
 Architecture: any
 Description: Development files for Qt SMOKE libraries
  SMOKE libraries are part of the bindings used for Qt and KDE. This package
@@ -273,16 +280,3 @@ Description: Development files for Qt SMOKE libraries
  multiple languages such as Ruby, C# and PHP.
  .
  This is part of the SMOKE Qt module.
-
-#Package: libsmokeqwt3
-#Depends: ${shlibs:Depends}, ${misc:Depends}
-#Architecture: any
-#Description: Qwt5 SMOKE libraries
-# SMOKE libraries are part of the bindings used for Qt and KDE. This package
-# contains Qwt5 SMOKE libraries.
-# .
-# SMOKE provides infrastructure which is used for creating bindings for
-# multiple languages such as Ruby, C# and PHP.
-# .
-# This is part of the SMOKE Qt module.
-
