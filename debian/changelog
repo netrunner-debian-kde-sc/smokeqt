@@ -1,3 +1,14 @@
+smokeqt (4:4.14.3-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Update watch file
+  * Drop libsmokeqtwebkit4-3 and libqtwebkit-dev build-depends as part of
+    getting rid of Qt4 WebKit (Closes: #784528)
+    - Build-conflicts libqtwebkit-dev just to make sure
+
+ -- Scott Kitterman <scott@kitterman.com>  Thu, 10 Sep 2015 15:41:18 -0400
+
 smokeqt (4:4.12.2-2) unstable; urgency=medium
 
   * Release to unstable

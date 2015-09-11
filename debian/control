@@ -14,10 +14,10 @@ Build-Depends: cmake,
                libqscintilla2-dev,
                libqt4-dev,
                libqt4-opengl-dev,
-               libqtwebkit-dev,
                pkg-config,
                pkg-kde-tools (>= 0.6.8),
                smoke-dev-tools (>= 4:4.11)
+Build-Conflicts: libqtwebkit-dev
 Standards-Version: 3.9.5
 Homepage: http://projects.kde.org/projects/kde/kdebindings/smoke/smokeqt
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/smokeqt.git
@@ -191,18 +191,18 @@ Description: Qt Ui Tools SMOKE library
  .
  This is part of the SMOKE Qt module.
 
-Package: libsmokeqtwebkit4-3
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Architecture: any
-Description: Qt WebKit SMOKE library
- SMOKE libraries are part of the bindings used for Qt and KDE. This package
- contains Qt WebKit SMOKE.
- .
- SMOKE provides infrastructure which is used for creating bindings for
- multiple languages such as Ruby, C# and PHP.
- .
- This is part of the SMOKE Qt module.
-
+#Package: libsmokeqtwebkit4-3
+#Depends: ${misc:Depends}, ${shlibs:Depends}
+#Architecture: any
+#Description: Qt WebKit SMOKE library
+# SMOKE libraries are part of the bindings used for Qt and KDE. This package
+# contains Qt WebKit SMOKE.
+# .
+# SMOKE provides infrastructure which is used for creating bindings for
+# multiple languages such as Ruby, C# and PHP.
+# .
+# This is part of the SMOKE Qt module.
+#
 Package: libsmokeqtxml4-3
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
